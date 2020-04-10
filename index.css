@@ -1,0 +1,192 @@
+/* INDEX */
+
+body{
+    background-color: dodgerblue;
+}
+
+hr {
+	border: 0;
+    border-top: 3px solid white;
+    margin: 20px;
+}
+
+header{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 50px;
+    margin: 20px;
+}
+.paragrafo{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 20px 50px 20px 50px;
+    margin: auto;
+}
+
+.div{
+    width: 33.33%;
+    border-right: 2px solid white;
+}
+
+ul.nav{
+    margin: 30px;
+    text-align: center;
+}
+
+ul.nav li {
+    list-style:none;
+    display:inline;
+}
+
+ul.nav li a{
+    border: solid white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+ul.nav a:hover{
+    background:white;
+    color:dodgerblue;
+    border-color: white;
+    color: dodgerblue;
+}
+
+footer{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+section{
+    display: flex;
+}
+
+/* ALUNO */
+
+img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid transparent;
+    border-radius: 75px;
+}
+
+.bodyAluno{
+    background-color: white;
+}
+
+ul.navAluno{
+    margin: 30px;
+    text-align: center;
+}
+
+ul.navAluno li {
+    list-style:none;
+    display:inline;
+}
+
+ul.navAluno li a{
+    border: solid dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: dodgerblue;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+ul.navAluno a:hover{
+    background:dodgerblue;
+    color:white;
+    border-color: dodgerblue;
+    color: white;
+}
+
+.bodyAluno >header{
+    background-color: dodgerblue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    padding: 25px 25px;
+    margin: 20px;
+}
+
+.bodyAluno >hr{
+    border: 0;
+    border-top: 3px solid dodgerblue;
+    margin: 20px;
+}
+
+.bodyAluno >footer{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: dodgerblue;
+    text-align: center;
+}
+
+.dados >p>div{
+    text-align: center;
+    
+}
+
+.dados{
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.curriculo{
+    width: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.curriculo >hr{
+    border: 0;
+    border-top: 1px solid dodgerblue;
+    margin: 20px;
+}
+
+.curriculo >div:nth-child(2){
+    border-bottom: 1px solid dodgerblue;
+    padding-bottom: 5px;
+}
+
+.curriculo >div:last-child{
+    padding-top: 20px;
+}
+
+.curriculo >div:last-child>p{
+    width: 80%;
+}
+
+.curriculo >div>div{
+    display: inline-block;
+    width: 24%;
+}
+
+.curriculo >div:first-child{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.curriculo >div>div>div{
+    padding-bottom: 10px;
+}
+
+.destaque{
+    color: dodgerblue;
+    padding-bottom: 20px !important;
+}
