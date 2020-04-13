@@ -130,7 +130,7 @@ ul.navAluno a:hover{
 .bodyAluno >footer{
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: dodgerblue;
+    color: black;
     text-align: center;
 }
 
@@ -189,4 +189,96 @@ ul.navAluno a:hover{
 .destaque{
     color: dodgerblue;
     padding-bottom: 20px !important;
+}
+
+/* CONTATO */
+
+.bodyContato{
+    background-color: white;
+}
+
+ul.navContato{
+    margin: 30px;
+    text-align: center;
+}
+
+ul.navContato li {
+    list-style:none;
+    display:inline;
+}
+
+ul.navContato li a{
+    border: solid dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: dodgerblue;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+ul.navContato a:hover{
+    background:dodgerblue;
+    color:white;
+    border-color: dodgerblue;
+    color: white;
+}
+
+.bodyContato >header{
+    background-color: dodgerblue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    padding: 25px 25px;
+    margin: 20px;
+}
+
+.bodyContato >hr{
+    border: 0;
+    border-top: 3px solid dodgerblue;
+    margin: 20px;
+}
+
+.bodyContato >footer{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+fieldset{
+    border-style: none;
+}
+.bodyContato >legend{
+    margin: 20px 40px 20px 40px;
+}
+
+.bodyContato >div{
+    margin: 10px 25px 10px 25px;
+}
+
+div{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+legend{
+    font-size: 30px;
+}
+
+input,textarea,select{
+
+   width: 380px;
+}
+
+p >input{
+    background: dodgerblue;
+    width: 380px;
+    height: 30px;
+    border: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+     
 }
