@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+    <title>Trabalho Desenvolvimento Web</title>
+</head>
+
+
+
+
+<body class="bodyAluno">
+    <header>Desenvolvimento Web I</header>
+
+    <ul class="navAluno">
+        <li><a href="index.html">Index</a></li>
+        <li><a href="aluno1.html">Aluno 1</a></li>
+        <li><a href="aluno2.html">Aluno 2</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+    <hr>
+    <div>
+        <table width="100%" border="1" align="center" color="blue">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Telefone</th>
+                    <th>Prioridade</th>
+                    <th>Mensagem</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="nome"></td>
+                    <td id="email"></td>
+                    <td id="tel"></td>
+                    <td id="prioridade"></td>
+                    <td id="msg"></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+    <hr>
+    <footer>
+        &copy; Desenvolvido por Emanoel Santos e Marcos Vinicius - 2020
+    </footer>
+    <script>
+        var qs = (function(a) {
+            if (a == "") return {};
+            var b = {};
+            for (var i = 0; i < a.length; ++i) {
+                var p = a[i].split('=', 2);
+                if (p.length == 1)
+                    b[p[0]] = "";
+                else
+                    b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+            }
+            console.log(a, b)
+            return b;
+
+        })(window.location.search.substr(1).split('&'));
+
+        var varGet1 = qs["txtnome"];
+        var varGet2 = qs["txtemail"];
+        var varGet3 = qs["txttel"];
+        var varGet4 = qs["txtMensagem"];
+        var varGet5 = qs["prioridade"];
+
+        var getNome = document.getElementById("nome");
+        var getEmail = document.getElementById("email");
+        var getTel = document.getElementById("tel");
+        var getMsg = document.getElementById("msg");
+        var getPrioridade = document.getElementById("prioridade");
+
+        getNome.append(varGet1);
+        getEmail.append(varGet2);
+        getTel.append(varGet3);
+        getMsg.append(varGet4);
+        getPrioridade.append(varGet5);
+        console.log(varGet5)
+    </script>
+</body>
+
+</html>

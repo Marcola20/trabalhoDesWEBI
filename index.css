@@ -1,16 +1,16 @@
 /* INDEX */
 
-body{
+body {
     background-color: dodgerblue;
 }
 
 hr {
-	border: 0;
+    border: 0;
     border-top: 3px solid white;
     margin: 20px;
 }
 
-header{
+header {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -19,7 +19,8 @@ header{
     padding-top: 50px;
     margin: 20px;
 }
-.paragrafo{
+
+.paragrafo {
     font-size: 17px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -27,22 +28,22 @@ header{
     margin: auto;
 }
 
-.div{
+.div {
     width: 33.33%;
     border-right: 2px solid white;
 }
 
-ul.nav{
+ul.nav {
     margin: 30px;
     text-align: center;
 }
 
 ul.nav li {
-    list-style:none;
-    display:inline;
+    list-style: none;
+    display: inline;
 }
 
-ul.nav li a{
+ul.nav li a {
     border: solid white;
     font-family: Arial, Helvetica, sans-serif;
     background: dodgerblue;
@@ -52,48 +53,50 @@ ul.nav li a{
     text-decoration: none;
     border-radius: 6px;
 }
-ul.nav a:hover{
-    background:white;
-    color:dodgerblue;
+
+ul.nav a:hover {
+    background: white;
+    color: dodgerblue;
     border-color: white;
     color: dodgerblue;
 }
 
-footer{
+footer {
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     text-align: center;
 }
 
-section{
+section {
     display: flex;
 }
 
+
 /* ALUNO */
 
-img{
+img {
     height: 150px;
     width: 150px;
     border: 2px solid transparent;
     border-radius: 75px;
 }
 
-.bodyAluno{
+.bodyAluno {
     background-color: white;
 }
 
-ul.navAluno{
+ul.navAluno {
     margin: 30px;
     text-align: center;
 }
 
 ul.navAluno li {
-    list-style:none;
-    display:inline;
+    list-style: none;
+    display: inline;
 }
 
-ul.navAluno li a{
+ul.navAluno li a {
     border: solid dodgerblue;
     font-family: Arial, Helvetica, sans-serif;
     background: white;
@@ -103,14 +106,15 @@ ul.navAluno li a{
     text-decoration: none;
     border-radius: 6px;
 }
-ul.navAluno a:hover{
-    background:dodgerblue;
-    color:white;
+
+ul.navAluno a:hover {
+    background: dodgerblue;
+    color: white;
     border-color: dodgerblue;
     color: white;
 }
 
-.bodyAluno >header{
+.bodyAluno>header {
     background-color: dodgerblue;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -121,93 +125,93 @@ ul.navAluno a:hover{
     margin: 20px;
 }
 
-.bodyAluno >hr{
+.bodyAluno>hr {
     border: 0;
     border-top: 3px solid dodgerblue;
     margin: 20px;
 }
 
-.bodyAluno >footer{
+.bodyAluno>footer {
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     text-align: center;
 }
 
-.dados >p>div{
+.dados>p>div {
     text-align: center;
-    
 }
 
-.dados{
+.dados {
     width: 25%;
     text-align: center;
     border-right: 1px solid dodgerblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.curriculo{
+.curriculo {
     width: 75%;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding-left: 10px;
 }
 
-.curriculo >hr{
+.curriculo>hr {
     border: 0;
     border-top: 1px solid dodgerblue;
     margin: 20px;
 }
 
-.curriculo >div:nth-child(2){
+.curriculo>div:nth-child(2) {
     border-bottom: 1px solid dodgerblue;
     padding-bottom: 5px;
 }
 
-.curriculo >div:last-child{
+.curriculo>div:last-child {
     padding-top: 20px;
 }
 
-.curriculo >div:last-child>p{
+.curriculo>div:last-child>p {
     width: 80%;
 }
 
-.curriculo >div>div{
+.curriculo>div>div {
     display: inline-block;
     width: 24%;
 }
 
-.curriculo >div:first-child{
+.curriculo>div:first-child {
     margin-bottom: 40px;
     margin-top: 20px;
 }
 
-.curriculo >div>div>div{
+.curriculo>div>div>div {
     padding-bottom: 10px;
 }
 
-.destaque{
+.destaque {
     color: dodgerblue;
     padding-bottom: 20px !important;
 }
 
+
 /* CONTATO */
 
-.bodyContato{
+.bodyContato {
     background-color: white;
 }
 
-ul.navContato{
+ul.navContato {
     margin: 30px;
     text-align: center;
 }
 
 ul.navContato li {
-    list-style:none;
-    display:inline;
+    list-style: none;
+    display: inline;
 }
 
-ul.navContato li a{
+ul.navContato li a {
     border: solid dodgerblue;
     font-family: Arial, Helvetica, sans-serif;
     background: white;
@@ -217,14 +221,15 @@ ul.navContato li a{
     text-decoration: none;
     border-radius: 6px;
 }
-ul.navContato a:hover{
-    background:dodgerblue;
-    color:white;
+
+ul.navContato a:hover {
+    background: dodgerblue;
+    color: white;
     border-color: dodgerblue;
     color: white;
 }
 
-.bodyContato >header{
+.bodyContato>header {
     background-color: dodgerblue;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -235,50 +240,63 @@ ul.navContato a:hover{
     margin: 20px;
 }
 
-.bodyContato >hr{
+.bodyContato>hr {
     border: 0;
     border-top: 3px solid dodgerblue;
     margin: 20px;
 }
 
-.bodyContato >footer{
+.bodyContato>footer {
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: black;
     text-align: center;
 }
 
-fieldset{
+fieldset {
     border-style: none;
 }
-.bodyContato >legend{
+
+.bodyContato>legend {
     margin: 20px 40px 20px 40px;
 }
 
-.bodyContato >div{
+.bodyContato>div {
     margin: 10px 25px 10px 25px;
 }
 
-div{
+div {
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-legend{
+legend {
     font-size: 30px;
 }
 
-input,textarea,select{
-
-   width: 380px;
+input,
+textarea,
+select {
+    width: 380px;
 }
 
-p >input{
+p>input {
     background: dodgerblue;
     width: 380px;
     height: 30px;
     border: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-     
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    color: dodgerblue;
+    border-color: dodgerblue;
+}
+
+td,
+th {
+    padding: 20px;
 }
